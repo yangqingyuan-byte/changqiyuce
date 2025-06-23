@@ -1,0 +1,30 @@
+pred_len=96, mse_mean=0.1415, mse_std=0.0005, mae_mean=0.2388, mae_std=0.0005
+pred_len=192, mse_mean=0.1591, mse_std=0.0011, mae_mean=0.2557, mae_std=0.0009
+pred_len=336, mse_mean=0.1805, mse_std=0.0008, mae_mean=0.2769, mae_std=0.0004
+pred_len=720, mse_mean=0.2419, mse_std=0.0005, mae_mean=0.3266, mae_std=0.0016
+pred_len=96, mse_mean=0.1512, mse_std=0.0005, mae_mean=0.2018, mae_std=0.0019
+pred_len=192, mse_mean=0.1964, mse_std=0.0001, mae_mean=0.2438, mae_std=0.0012
+pred_len=336, mse_mean=0.2536, mse_std=0.0011, mae_mean=0.2865, mae_std=0.0014
+pred_len=720, mse_mean=0.3283, mse_std=0.0012, mae_mean=0.3405, mae_std=0.0013
+[2025-06-20 08:38:22] dataset=ett_h, model=RWKV7_TS_3, model_id=ETTh1_RWKV7_TS_3__336_96_100, seq_len=336, pred_len=96, features=M, percent=100, mse_mean=0.3961, mse_std=0.0063, mae_mean=0.4144, mae_std=0.0034
+[2025-06-20 08:44:42] dataset=ett_h, model=RWKV7_TS_3, model_id=ETTh1_RWKV7_TS_3__336_192_100, seq_len=336, pred_len=192, features=M, percent=100, mse_mean=0.4645, mse_std=0.0102, mae_mean=0.4562, mae_std=0.0062
+[2025-06-20 08:51:33] dataset=ett_h, model=RWKV7_TS_3, model_id=ETTh1_RWKV7_TS_3__336_336_100, seq_len=336, pred_len=336, features=M, percent=100, mse_mean=0.5183, mse_std=0.0363, mae_mean=0.4845, mae_std=0.0209
+[2025-06-20 08:58:14] dataset=ett_h, model=RWKV7_TS_3, model_id=ETTh1_RWKV7_TS_3__336_720_100, seq_len=336, pred_len=720, features=M, percent=100, mse_mean=0.5831, mse_std=0.0045, mae_mean=0.5300, mae_std=0.0009
+[2025-06-20 09:01:27] dataset=ETTh2, model=RWKV7_TS_3, model_id=ETTh2_RWKV7_TS_3__336_96_100, seq_len=336, pred_len=96, features=M, percent=100, mse_mean=0.3129, mse_std=0.0000, mae_mean=0.3682, mae_std=0.0000
+[2025-06-20 09:03:36] dataset=ETTh2, model=RWKV7_TS_3, model_id=ETTh2_RWKV7_TS_3__336_192_100, seq_len=336, pred_len=192, features=M, percent=100, mse_mean=0.3845, mse_std=0.0000, mae_mean=0.4099, mae_std=0.0000
+[2025-06-20 09:05:42] dataset=ETTh2, model=RWKV7_TS_3, model_id=ETTh2_RWKV7_TS_3__336_336_100, seq_len=336, pred_len=336, features=M, percent=100, mse_mean=0.4100, mse_std=0.0000, mae_mean=0.4280, mae_std=0.0000
+[2025-06-20 09:07:45] dataset=ETTh2, model=RWKV7_TS_3, model_id=ETTh2_RWKV7_TS_3__336_720_100, seq_len=336, pred_len=720, features=M, percent=100, mse_mean=0.4268, mse_std=0.0000, mae_mean=0.4529, mae_std=0.0000
+[2025-06-20 09:28:50] dataset=ETTm1, model=RWKV7_TS_3, model_id=ETTm1_RWKV7_TS_3__512_96_100, seq_len=512, pred_len=96, features=M, percent=100, mse_mean=0.3064, mse_std=0.0035, mae_mean=0.3567, mae_std=0.0030
+[2025-06-20 09:49:12] dataset=ETTm1, model=RWKV7_TS_3, model_id=ETTm1_RWKV7_TS_3__512_192_100, seq_len=512, pred_len=192, features=M, percent=100, mse_mean=0.3451, mse_std=0.0012, mae_mean=0.3842, mae_std=0.0014
+[2025-06-20 10:09:02] dataset=ETTm1, model=RWKV7_TS_3, model_id=ETTm1_RWKV7_TS_3__512_336_100, seq_len=512, pred_len=336, features=M, percent=100, mse_mean=0.3781, mse_std=0.0054, mae_mean=0.4064, mae_std=0.0027
+[2025-06-20 10:30:25] dataset=ETTm1, model=RWKV7_TS_3, model_id=ETTm1_RWKV7_TS_3__512_720_100, seq_len=512, pred_len=720, features=M, percent=100, mse_mean=0.4593, mse_std=0.0152, mae_mean=0.4486, mae_std=0.0052
+[2025-06-20 10:38:03] dataset=ETTm2, model=RWKV7_TS_3, model_id=ETTm2_RWKV7_TS_3__512_96_100, seq_len=512, pred_len=96, features=M, percent=100, mse_mean=0.1784, mse_std=0.0000, mae_mean=0.2695, mae_std=0.0000
+[2025-06-20 10:45:25] dataset=ETTm2, model=RWKV7_TS_3, model_id=ETTm2_RWKV7_TS_3__512_192_100, seq_len=512, pred_len=192, features=M, percent=100, mse_mean=0.2430, mse_std=0.0000, mae_mean=0.3126, mae_std=0.0000
+[2025-06-20 10:51:53] dataset=ETTm2, model=RWKV7_TS_3, model_id=ETTm2_RWKV7_TS_3__512_336_100, seq_len=512, pred_len=336, features=M, percent=100, mse_mean=0.3124, mse_std=0.0000, mae_mean=0.3590, mae_std=0.0000
+[2025-06-20 10:58:14] dataset=ETTm2, model=RWKV7_TS_3, model_id=ETTm2_RWKV7_TS_3__512_720_100, seq_len=512, pred_len=720, features=M, percent=100, mse_mean=0.3829, mse_std=0.0000, mae_mean=0.4033, mae_std=0.0000
+[2025-06-20 12:26:29] dataset=national_illness, model=RWKV7_TS_3, model_id=illness_RWKV7_TS_3__104_24_100, seq_len=104, pred_len=24, features=M, percent=100, mse_mean=1.9349, mse_std=0.0451, mae_mean=0.9014, mae_std=0.0231
+[2025-06-20 12:30:55] dataset=national_illness, model=RWKV7_TS_3, model_id=illness_RWKV7_TS_3__104_36_100, seq_len=104, pred_len=36, features=M, percent=100, mse_mean=1.9342, mse_std=0.1181, mae_mean=0.9147, mae_std=0.0302
+[2025-06-20 12:35:14] dataset=national_illness, model=RWKV7_TS_3, model_id=illness_RWKV7_TS_3__104_48_100, seq_len=104, pred_len=48, features=M, percent=100, mse_mean=1.8587, mse_std=0.1512, mae_mean=0.9004, mae_std=0.0373
+[2025-06-20 12:39:24] dataset=national_illness, model=RWKV7_TS_3, model_id=illness_RWKV7_TS_3__104_60_100, seq_len=104, pred_len=60, features=M, percent=100, mse_mean=1.8313, mse_std=0.0730, mae_mean=0.9115, mae_std=0.0212
+[2025-06-22 00:09:50] dataset=traffic, model=RWKV7_TS_3, model_id=traffic_RWKV7_TS_3__512_336_100, seq_len=512, pred_len=336, features=M, percent=100, mse_mean=0.4109, mse_std=0.0017, mae_mean=0.2767, mae_std=0.0006
+[2025-06-23 01:25:23] dataset=traffic, model=RWKV7_TS_3, model_id=traffic_RWKV7_TS_3__512_96_100, seq_len=512, pred_len=96, features=M, percent=100, mse_mean=0.3710, mse_std=0.0010, mae_mean=0.2598, mae_std=0.0010
