@@ -28,3 +28,5 @@ pred_len=720, mse_mean=0.3283, mse_std=0.0012, mae_mean=0.3405, mae_std=0.0013
 [2025-06-20 12:39:24] dataset=national_illness, model=RWKV7_TS_3, model_id=illness_RWKV7_TS_3__104_60_100, seq_len=104, pred_len=60, features=M, percent=100, mse_mean=1.8313, mse_std=0.0730, mae_mean=0.9115, mae_std=0.0212
 [2025-06-22 00:09:50] dataset=traffic, model=RWKV7_TS_3, model_id=traffic_RWKV7_TS_3__512_336_100, seq_len=512, pred_len=336, features=M, percent=100, mse_mean=0.4109, mse_std=0.0017, mae_mean=0.2767, mae_std=0.0006
 [2025-06-23 01:25:23] dataset=traffic, model=RWKV7_TS_3, model_id=traffic_RWKV7_TS_3__512_96_100, seq_len=512, pred_len=96, features=M, percent=100, mse_mean=0.3710, mse_std=0.0010, mae_mean=0.2598, mae_std=0.0010
+[2025-06-23 21:21:34] dataset=traffic, model=RWKV7_TS_3, model_id=traffic_RWKV7_TS_3__512_192_100, seq_len=512, pred_len=192, features=M, percent=100, mse_mean=0.3934, mse_std=0.0029, mae_mean=0.2695, mae_std=0.0011
+[2025-06-23 21:21:34] dataset=traffic, model=RWKV7_TS_3, model_id=traffic_RWKV7_TS_3__512_192_100, seq_len=512, pred_len=192, features=M, percent=100, mse_mean=0.4297, mse_std=0.0024, mae_mean=0.2858, mae_std=0.0010

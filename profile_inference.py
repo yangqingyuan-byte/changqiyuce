@@ -4,7 +4,7 @@ from tqdm import tqdm
 from models.PatchTST import PatchTST
 from models.DLinear import DLinear
 from models.RWKV4TS import RWKV4TS
-
+from models.RWKV7_TS_3 import RWKV7_TS_3
 
 import numpy as np
 import torch
@@ -130,8 +130,10 @@ for ii in range(args.itr):
         model.to(device)
     elif args.model == "RWKV4TS":
         model = RWKV4TS(args, device)
-    else:
-        model = GPT4TS(args, device)
+    elif args.model == "RWKV7_TS_3":
+        model = RWKV7_TS_3(args, device)
+    # else:
+    #     model = GPT4TS(args, device)
     # mse, mae = test(model, test_data, test_loader, args, device, ii)
 
     params = model.parameters()
